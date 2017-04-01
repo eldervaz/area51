@@ -1,6 +1,6 @@
 <?php
 
-//echo '<div class="response" id="success-response">Enviando...</div>';
+
 
 
 	$name = trim($_POST['name']);
@@ -8,8 +8,8 @@
 	$phone = $_POST['phone'];
 	$comments = $_POST['comments'];
 	
-	$site_owners_email = "info@area51.pe"; // Replace this with your own email address
-	$site_owners_name = "Area51 Training Center"; // replace with your name
+	$site_owners_email = "info@area51.pe"; 
+	$site_owners_name = "Area51 Training Center"; 
 	
 	if (strlen($name) < 2) {
 		$error['name'] = "Por favor ingresa tu nombre";	
@@ -30,17 +30,7 @@
 	if (!$error) {
 		
 		require_once('phpMailer/class.phpmailer.php');
-		/*
-		$mail = new PHPMailer();
 		
-		$mail->From = "info@area51.pe";
-		$mail->FromName = $site_owners_name;
-		$mail->Subject = "Formulario Area51";
-		$mail->AddAddress($site_owners_email, $site_owners_name);
-		$mail->AddReplyTo($email,$name);
-
-		$mail->AltBody = "Nombre: ".$name."\nEmail: ".$email."\nTelefono: ".$phone."\nMensaje: ".$comments."\n";		
-		*/
 		$body = "<table width=\"640\" border=\"0\" cellspacing=\"1\" cellpadding=\"1\" style=\"font-family:Arial, Helvetica, sans-serif;\">
   <tr>
     <td width=\"130\"><img src=\"http://area51.pe/images/logo_area51.gif\" width=\"199\" height=\"91\"></td>
@@ -72,40 +62,6 @@
 </table>";
 		
 		
-
-		/*
-		
-		$mail->MsgHTML($body);
-		
-		// MAIL STUFF
-		
-		$mail->Mailer = "smtp";
-		$mail->Host = 'ssl://smtp.gmail.com';
-		$mail->Port = 465;
-		$mail->SMTPSecure = "ssl"; 
-		
-		
-		$mail->SMTPAuth = true; // turn on SMTP authentication
-		$mail->Username = "info@area51.pe"; // SMTP username
-		$mail->Password = "35##area"; // SMTP password
-		
-		
-		$mail->Send();
-		echo $mail->ErrorInfo;
-		echo '<div class="response" id="success-response">Gracias ' . $name . ', estamos en contacto. </div>';
-		*/
-
-
-/*
-$name = trim($_POST['name']);
-	$email = $_POST['email'];
-	$phone = $_POST['phone'];
-	$comments = $_POST['comments'];
-	
-	$site_owners_email = "info@area51.pe"; // Replace this with your own email address
-	$site_owners_name = "Area51 Training Center"; // replace with your name
-
-	*/
 
 $to      = 'info@area51.pe';
 $subject = 'Mensaje desde Area51.pe';
