@@ -1,0 +1,20 @@
+{
+  "array": [
+    {
+    "a": "Curso HTML5",
+    "c": "texto 1",
+    "e": "images/html5.png"
+    },
+    {
+    "a": "Curso JAVASCRIPT",
+    "c": "texto 2",
+    "e": "images/javascript.png"
+    },
+    {
+    "a": "Curso iOS",
+    "c": "texto para iOS",
+    "e": "images/ios.png"
+    }
+  ],
+  "string": "Hello World"
+}
