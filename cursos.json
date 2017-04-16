@@ -1,6 +1,15 @@
 {
   'responseData': {
     'results': [
+      
+      {
+        'Curso': 'Area51 Training Center',
+        'Description': 'Centro de Certificación Internacional',
+        'image': 'images/logo.png',
+        'inicio': '26 de Abril',
+        'Profesor': 'David Velarde',
+        'Duracion': '72 horas'
+      },
       {
         'Curso': 'HTML5',
         'Description': 'Curso personalizado para crear sitios web usando HTML5, CSS3 y Javascrip',
@@ -20,7 +29,7 @@
       {
         'Curso': 'iOS',
         'Description': 'Curso para programadores que permite crear apps móviles en iOS',
-        'image': 'images/html5.png',
+        'image': 'images/ios.png',
         'inicio': '26 de Abril',
         'Profesor': 'David Velarde',
         'Duracion': '72 horas'
