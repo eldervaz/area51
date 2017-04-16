@@ -2,25 +2,30 @@
   'responseData': {
     'results': [
       {
-        'GsearchResultClass': 'GwebSearch',
-        'unescapedUrl': 'http://en.wikipedia.org/wiki/Paris_Hilton',
-        'url': 'http://en.wikipedia.org/wiki/Paris_Hilton',
-        'visibleUrl': 'en.wikipedia.org',
-        'cacheUrl': 'http://www.google.com/search?q=cache:TwrPfhd22hYJ:en.wikipedia.org',
-        'title': '<b>Paris Hilton</b> - Wikipedia, the free encyclopedia',
-        'titleNoFormatting': 'Paris Hilton - Wikipedia, the free encyclopedia',
-        'content': '[1] In 2006, she released her debut album...'
+        'Curso': 'HTML5',
+        'Description': 'Curso personalizado para crear sitios web usando HTML5, CSS3 y Javascrip',
+        'image': 'images/html5.png',
+        'inicio': '24 de Abril',
+        'Profesor': 'Sergio Hidalgo',
+        'Duracion': '72 horas'
       },
       {
-        'GsearchResultClass': 'GwebSearch',
-        'unescapedUrl': 'http://www.imdb.com/name/nm0385296/',
-        'url': 'http://www.imdb.com/name/nm0385296/',
-        'visibleUrl': 'www.imdb.com',
-        'cacheUrl': 'http://www.google.com/search?q=cache:1i34KkqnsooJ:www.imdb.com',
-        'title': '<b>Paris Hilton</b>',
-        'titleNoFormatting': 'Paris Hilton',
-        'content': 'Self: Zoolander. Socialite <b>Paris Hilton</b>...'
+        'Curso': 'Javascript',
+        'Description': 'Curso especialziado para crear interacción con Javascript',
+        'image': 'images/javascript.png',
+        'inicio': '2 de Mayo',
+        'Profesor': 'Renzo Castro',
+        'Duracion': '48 horas'
+      },
+      {
+        'Curso': 'iOS',
+        'Description': 'Curso para programadores que permite crear apps móviles en iOS',
+        'image': 'images/html5.png',
+        'inicio': '26 de Abril',
+        'Profesor': 'David Velarde',
+        'Duracion': '72 horas'
       }
+
     ],
     'cursor': {
       'pages': [
