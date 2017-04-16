@@ -12,7 +12,7 @@
       },
       {
         'Curso': 'HTML5',
-        'Description': 'Curso personalizado para crear sitios web usando HTML5, CSS3 y Javascrip',
+        'Description': 'HTML5 es la última versión de HTML. El término representa dos conceptos diferentes: Se trata de una nueva versión de HTML, con nuevos elementos, atributos y comportamientos. Contiene un conjunto más amplio de tecnologías que permite a los sitios Web y a las aplicaciones ser más diversas y de gran alcance.',
         'image': 'images/html5.png',
         'inicio': '24 de Abril',
         'Profesor': 'Sergio Hidalgo',
