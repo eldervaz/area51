@@ -1,20 +1,51 @@
 {
-  "array": [
-    {
-    "a": "Curso HTML5",
-    "c": "texto 1",
-    "e": "images/html5.png"
-    },
-    {
-    "a": "Curso JAVASCRIPT",
-    "c": "texto 2",
-    "e": "images/javascript.png"
-    },
-    {
-    "a": "Curso iOS",
-    "c": "texto para iOS",
-    "e": "images/ios.png"
-    }
-  ],
-  "string": "Hello World"
-}
+ 2  'responseData': {
+ 3    'results': [
+ 4      {
+ 5        'GsearchResultClass': 'GwebSearch',
+ 6        'unescapedUrl': 'http://en.wikipedia.org/wiki/Paris_Hilton',
+ 7        'url': 'http://en.wikipedia.org/wiki/Paris_Hilton',
+ 8        'visibleUrl': 'en.wikipedia.org',
+ 9        'cacheUrl': 'http://www.google.com/search?q=cache:TwrPfhd22hYJ:en.wikipedia.org',
+10        'title': '<b>Paris Hilton</b> - Wikipedia, the free encyclopedia',
+11        'titleNoFormatting': 'Paris Hilton - Wikipedia, the free encyclopedia',
+12        'content': '[1] In 2006, she released her debut album...'
+13      },
+14      {
+15        'GsearchResultClass': 'GwebSearch',
+16        'unescapedUrl': 'http://www.imdb.com/name/nm0385296/',
+17        'url': 'http://www.imdb.com/name/nm0385296/',
+18        'visibleUrl': 'www.imdb.com',
+19        'cacheUrl': 'http://www.google.com/search?q=cache:1i34KkqnsooJ:www.imdb.com',
+20        'title': '<b>Paris Hilton</b>',
+21        'titleNoFormatting': 'Paris Hilton',
+22        'content': 'Self: Zoolander. Socialite <b>Paris Hilton</b>...'
+23      }
+24    ],
+25    'cursor': {
+26      'pages': [
+27        {
+28          'start': '0',
+29          'label': 1
+30        },
+31        {
+32          'start': '4',
+33          'label': 2
+34        },
+35        {
+36          'start': '8',
+37          'label': 3
+38        },
+39        {
+40          'start': '12',
+41          'label': 4
+42        }
+43      ],
+44      'estimatedResultCount': '59600000',
+45      'currentPageIndex': 0,
+46      'moreResultsUrl': 'http://www.google.com/search?oe=utf8&ie=utf8...'
+47    }
+48  },
+49  'responseDetails': null,
+50  'responseStatus': 200
+51}
